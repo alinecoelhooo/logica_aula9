@@ -1,0 +1,18 @@
+programa
+{     
+      inteiro opcao = 0
+
+      funcao cadeia retorna_sexo()
+     {    
+      se (opcao == 1) 
+          retorne "Você é homem"
+       retorne "Você é mulher"
+     }
+
+     funcao inicio()
+     {    
+     escreva ("Informe o sexo do usúario: [1- Masculino | 2 - Feminino ]")
+     leia ( opcao ) 
+     escreva (retorna_sexo)
+  }
+}
