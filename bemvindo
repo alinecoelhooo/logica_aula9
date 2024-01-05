@@ -1,0 +1,11 @@
+programa
+{     
+     funcao cadeia bemvindo()
+     {    
+     retorne "Seja bem vindo!"
+     }
+     funcao inicio()
+     {     
+     escreva (bemvindo())
+     }
+}
