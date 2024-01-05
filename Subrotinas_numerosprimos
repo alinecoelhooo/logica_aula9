@@ -1,0 +1,28 @@
+programa
+{
+	inteiro valor1, cont , totaldiv
+
+	funcao logico primo (inteiro primos) 
+	{
+			totaldiv = 0
+		se ( primos == 1 )
+			retorne verdadeiro 
+		para ( cont = 1; cont <= primos; cont++)
+		{
+			se (primos % cont == 0 )
+				totaldiv++
+		}
+		retorne totaldiv == 2 
+	}
+	funcao inicio()
+	{
+		escreva("informer um número: ")
+		leia(valor1)
+		se ( primo(valor1))
+			escreva ( "É primo " )
+		senao 
+			escreva (" Não é primo" ) 
+
+
+	}
+}
