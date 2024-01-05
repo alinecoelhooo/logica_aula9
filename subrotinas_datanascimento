@@ -1,0 +1,31 @@
+programa
+{
+	inteiro dia, mes, ano 
+
+	funcao cadeia formataValorData(inteiro Valor )
+	{
+		se ( Valor < 10 )
+			retorne "0" + Valor
+		retorne "" + Valor 
+	}
+
+	funcao cadeia formatacao (inteiro dias , inteiro meses, inteiro anos )
+	{
+
+		retorne formataValorData(dias) + "/" +  formataValorData(meses) + "/"+ anos 
+
+	}
+
+	funcao inicio()
+	{
+		escreva("Informe seu dia de nascimento: ")
+		leia(dia)
+		escreva("Informe seu mês de nascimento: ")
+		leia(mes)
+		escreva("Informer seu ano de nascimento: ")
+		leia(ano)
+		escreva(formatacao(dia,mes,ano))
+
+	}
+
+}
