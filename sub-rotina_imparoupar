@@ -1,0 +1,18 @@
+programa
+{
+	inteiro vl1 = 0 
+
+	funcao cadeia parimpar(inteiro valor1)
+	{
+		se ( valor1 % 2 == 1 )
+
+			retorne "Impar"
+		retorne "par"
+	}	 
+	funcao inicio()
+	{
+		escreva("Informe um valor inteiro: ")	
+		leia(vl1)
+		escreva(parimpar(vl1))
+	}
+}
