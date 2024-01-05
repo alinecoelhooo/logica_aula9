@@ -1,0 +1,17 @@
+programa
+{
+	inteiro vl1, vl2
+	funcao inteiro somavalores(inteiro pValor1, inteiro pValor2 )
+	{
+		retorne pValor1 + pValor2
+	}
+
+	funcao inicio()
+	{
+		escreva("informe um valor inteiro: ")
+		leia(vl1)
+		escreva("Inforeme segundo valor inteiro: ")
+		leia(vl2)
+		escreva(somavalores(vl1, vl2))
+	}
+}
