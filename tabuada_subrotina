@@ -1,20 +1,17 @@
 programa
 {
 	  inteiro valor
-    inteiro cont
-    funcao
-
-	funcao cadeia parimpar(inteiro valor1)
+          inteiro cont
+          funcao cadeia geraTabuada(inteiro pValor)     
 	{
-		se ( valor1 % 2 == 1 )
-
-			retorne "Impar"
-		retorne "par"
+		para ( cont = 1;  cont<=10; cont++ )
+       		  escreva (pValor, " x ", cont," = ", (pValor * cont), "\n")
+		retorne ""		
 	}	 
-	funcao inicio()
+	 funcao inicio()
 	{
 		escreva("Informe um valor inteiro: ")	
-		leia(vl1)
-		escreva(parimpar(vl1))
+		leia(valor)
+		geraTabuada(valor)
 	}
 }
